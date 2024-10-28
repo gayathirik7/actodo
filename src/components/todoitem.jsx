@@ -19,7 +19,7 @@ const Todoitem=(props)=>{
         <div className="flex justify-between">
             
         <p>{props.index+1}. {props.activity}</p>
-        <button  onClick={()=>handle(props.id)}>Delete</button>
+        <button className="text-red-600" onClick={()=>handle(props.id)}>Delete</button>
         </div>
 
     )
