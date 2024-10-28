@@ -10,11 +10,11 @@ const Todo = () => {
         },
         {
             id: 2,
-            activity: "breakfast is ready"
+            activity: "Read a book for 5mins"
         },
         {
             id: 3,
-            activity: "lunach is Ready"
+            activity: "Take a cold shower"
         }
 
     ])
